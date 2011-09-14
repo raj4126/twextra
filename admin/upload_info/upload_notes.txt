@@ -1,0 +1,21 @@
+.......................................................
+next upload:
+
+backup database weekly;
+
+...........................................................
+new features added:
+-restricted access for twetest 
+-css reset
+-like button
+-hash tag feature
+-retweet button
+-fixed regex for links for iphone
+............................................................
+future work:
+unique views->current views (timers/ajax call every 5 secs)
+-marketing->bookmarklet->partnership/apis
+-better link and atreply regex (^    $),  http: EOL
+..........................................................
+
+	

@@ -1,0 +1,18 @@
+Product license details.
+
+Full terms and conditions can be seen at phpemporium.com
+A brief overview of your licence is detailed below:
+
+- Each purchased PHP script comes with 1 site license.
+- You may not re-distribute the script to anyone.
+- The script may not be sold, either in it's original
+  form or modified unless it is part of the sale of a
+  domain name/site.
+- PHP Emporium reserves the right to terminate any
+  licence agreements should you breach any of the terms
+  and conditions.
+- All links to PHPEmporium.com must remain in the script
+- This document must remain un-modified.
+
+If you have any questions or comments please go to our website:
+http://www.phpemporium.com/contact_us.php

@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /scripts/
+Disallow: /sql/
+Disallow: /test/
+Disallow: /gradient/
+Disallow: /libs/
+Disallow: /linkedin/
+Disallow: /twitter/
+Disallow: /regression_tests/
+Disallow: /xurl/
+Disallow: /NaN/
+Disallow: /logs/
+Disallow: /dev2/

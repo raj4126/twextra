@@ -1,0 +1,66 @@
+<?php 
+
+/*
+
+http://developers.facebook.com/setup/done?id=138321036207048&locale=en_US
+-------------------------------------------------------------------------------
+
+Facebook DevelopersDocumentationForumShowcaseBlog
+	
+Create an Application
+Settings
+
+Twetest is now registered with Facebook. You can edit your application settings at any time in your Developer Dashboard.
+App Name:	Twetest
+App URL:	http://twetest.com/
+App ID:	138321036207048
+App Secret:	52d88e342363fd17a8fd761c7bdd2d36
+Sample Code
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://www.facebook.com/2008/fbml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Twetest</title>
+  </head>
+  <body>
+    <h1>Twetest</h1>
+    <p><fb:login-button autologoutlink="true"></fb:login-button></p>
+    <p><fb:like></fb:like></p>
+
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({appId: '138321036207048', status: true, cookie: true,
+                 xfbml: true});
+      };
+      (function() {
+        var e = document.createElement('script');
+        e.type = 'text/javascript';
+        e.src = document.location.protocol +
+          '//connect.facebook.net/en_US/all.js';
+        e.async = true;
+        document.getElementById('fb-root').appendChild(e);
+      }());
+    </script>
+  </body>
+</html>
+
+Next Steps
+
+You can add more cut-and-paste social functionality to your site with social plugins like the Like button in the sample above.
+
+To incorporate the active user's profile and friends into your server-side code, you should use the Graph API. We support a number of SDKs to make that process easier:
+
+    * PHP SDK
+    * Python SDK
+    * iPhone SDK
+
+Check out the getting started guide for more information.
+Facebook © 2010
+AboutPrinciples & PoliciesPrivacy Policy
+
+*/
+
+?>
