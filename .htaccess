@@ -1,0 +1,15 @@
+RewriteEngine on
+
+<IfModule mod_rewrite.c>
+
+  # 301 redirect to domain without 'www.'
+  RewriteCond %{HTTP_HOST} ^www.twextra.com$ [NC]
+  RewriteRule ^(.*)$ http://twextra.com/$1 [R=301,L]
+</IfModule>
+
+RewriteRule ^([1-9a-z]{6,6})/?$ http://twextra.com/tweet_display.php?message_id=$1&mthd=displayTweet
+
+RewriteRule  ^([1-9a-z]{6,6})/([a-z]{2,3})\-([a-z]{2,3})$ http://twextra.com/tweet_display.php?message_id=$1&mthd=displayTranslatedTweet&src_lang=$2&tgt_lang=$3
+
+
+
