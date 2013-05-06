@@ -104,7 +104,7 @@ self::$docroot = $_SERVER ['DOCUMENT_ROOT'];
 
 			self::$userdb = 'twextra';
 
-			self::$pwdb = 'Spearmint1';
+			self::$pwdb = 'xxxxxxxxxx';
 
 			self::$linkedin_access = 'U6zyYyGUwE5o0zvIkMnGosw2WpQusl-Pa4JNQyIy9IDdsDLKdp2by6qzwFM7H6Rv'; //linkedin-twextra
 
@@ -128,11 +128,11 @@ self::$docroot = $_SERVER ['DOCUMENT_ROOT'];
 
 			self::$hostdb = '173.201.217.33';
 
-			self::$database = 'twetest';
+			self::$database = 'xxxxxxxx';
 
-			self::$userdb = 'twetest';
+			self::$userdb = 'xxxxxx';
 
-			self::$pwdb = 'Spearmint1';
+			self::$pwdb = 'xxxxxxxxxx';
 
 			self::$linkedin_access = 'YMKaHlPF6xv8YTMs_FftnoC1tq_0Fgoz9Y8me0PvcR1Sm9WxzuPI18hZr2yP3fFq'; //linkedin-twetest
 			self::$linkedin_secret = 'PuKdmBOQFdR1vibAe0LX3yRkKhu-NWlZaqC3EwnsiiMw1OL0EZ_J_rmh5PjzHXfg'; //linkedin-twetest
